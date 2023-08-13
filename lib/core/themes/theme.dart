@@ -24,6 +24,6 @@ const Color backgroundColor = Color(0xFF1E293B);
 //
 // Border Radius
 //
-const double defaultBorderRadius = 12;
+const double defaultBorderRadius = 8;
 const double mediumBorderRadius = 8;
 const double smallBorderRadius = 4;
