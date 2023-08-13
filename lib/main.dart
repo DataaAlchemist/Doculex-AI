@@ -4,7 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'core/providers/shared_preferences.dart';
 import 'core/themes/theme.dart';
-import 'presentation/pages/onboarding_page.dart';
+import 'presentation/pages/sign_up/sign_up_page.dart';
 import 'presentation/pages/wrapper.dart';
 
 Future<void> main() async {
@@ -35,10 +35,10 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.dark,
           seedColor: primaryColor,
         ),
-        fontFamily: 'Poppins',
+        fontFamily: 'Plus Jakarta Sans',
         inputDecorationTheme: const InputDecorationTheme(
           hintStyle: TextStyle(
-            fontFamily: 'Poppins',
+            fontFamily: 'Plus Jakarta Sans',
             fontWeight: FontWeight.w500,
             color: grey300Color,
           ),
@@ -60,7 +60,7 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         '/': (context) => const Wrapper(),
-        '/onboarding': (context) => const OnboardingPage(),
+        '/sign-up':(context) => const SignUpPage(),
       },
       initialRoute: '/',
     );

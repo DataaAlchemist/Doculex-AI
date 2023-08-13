@@ -20,6 +20,9 @@ const Color darkGreyColor =  Color(0xff4A4A4A);
 const Color primaryColor = Color(0xFF10B981);
 const Color secondaryColor = Color(0xFF14B8A6);
 const Color backgroundColor = Color(0xFF1E293B);
+const Color cardColor = Color(0xFF334153);
+const Color cardColor2 = Color(0xFF2D3949);
+const Color formColor = Color(0xFF2b3545);
 
 //
 // Border Radius
