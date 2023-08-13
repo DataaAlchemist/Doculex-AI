@@ -4,16 +4,6 @@ import 'package:flutter/material.dart';
 // Colors
 //
 
-// Ocean
-const Color ocean50Color = Color(0xFFecf4fd);
-const Color ocean500Color = Color(0xFF3C8EEF);
-
-// Oranges
-const Color orange500Color = Color(0xffF2821B);
-
-// Greends
-const Color green500Color = Color(0xff168751);
-
 // Greys
 const Color lighterGreyColor =  Color(0xffF5F5F5);
 const Color lightGreyColor =  Color(0xffE7E7E7);
@@ -27,7 +17,9 @@ const Color grey900Color = Color(0xff1B1B1B);
 const Color darkGreyColor =  Color(0xff4A4A4A);
 
 // App Colors
-const Color primaryColor = ocean500Color;
+const Color primaryColor = Color(0xFF10B981);
+const Color secondaryColor = Color(0xFF14B8A6);
+const Color backgroundColor = Color(0xFF1E293B);
 
 //
 // Border Radius
